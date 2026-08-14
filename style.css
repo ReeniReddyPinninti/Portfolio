@@ -897,3 +897,27 @@ footer span { color: var(--blue-400); }
   .exp-header { flex-direction: column; }
   .skills-modal-grid { grid-template-columns: 1fr; }
 }
+
+.skills-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--blue-50);
+  border: 1px solid var(--blue-100);
+  border-radius: 100px;
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--blue-800);
+}
+
+.skill-chip-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
